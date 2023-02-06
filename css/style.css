@@ -1,0 +1,156 @@
+header img {
+    width: 110px;
+    height: 30px;
+    margin-top: 27px;
+    margin-left: 47px;
+}
+
+.main {
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    height: 460px;
+    /* text-align: center; */
+    padding: 25px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title h1, p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.input_signin input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input_signin {
+    text-align: center;
+}
+
+.input_signin input {
+    box-sizing: border-box;
+    font-size: 18px;
+    padding-left: 12px;
+    width: 304px;
+    height: 52px;
+
+    background: rgba(255, 255, 255, 0.002);
+    border: 1px solid #0073B1;
+    box-shadow: 0px 0px 0px 1px #0A66C2;
+    border-radius: 4px;
+}
+
+.forgot_pass {
+    margin: 10px;
+    color: #0A66C2;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.signin_btn {
+    margin: 10px 0;
+    background: #0A66C2;
+    border-radius: 28px;
+    width: 304px;
+    height: 52px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.or::before,
+.or::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    ;
+}
+
+.or:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.or:not(:empty)::after {
+    margin-left: .25em;
+}
+
+.or span {
+    margin: 0px 8px;
+    color: rgba(0, 0, 0, 0.6);
+    ;
+}
+
+.signin_down {
+    margin-top: 10px;
+}
+
+.signin_down button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 304px;
+    height: 42px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.002);
+    border: solid 1px #333;
+    border-radius: 28px;
+}
+
+.signin_down button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.join_now {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.join_now a {
+    text-decoration: none;
+    color: #0A66C2;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.footer_list li:first-child img{
+    width: 55px;
+    height: 150%;
+}
+
+.footer_list_item{
+    display: inline-block;
+    margin: 15px;
+    margin-top: 100px;
+}
+
+.footer_list{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.footer_list li:first-child{
+    display: flex;
+    align-items: center;
+}
+
+
